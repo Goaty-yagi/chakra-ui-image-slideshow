@@ -1,0 +1,7 @@
+venv/
+media/
+__pycache__/
+env.local
+.vscode/
+.mypy_cache
+node_modules/
