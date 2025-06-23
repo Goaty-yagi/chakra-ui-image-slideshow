@@ -1,10 +1,10 @@
-import path from "path";
-import { fileURLToPath } from "url";
+import peerDepsExternal from "rollup-plugin-peer-deps-external";
+import babel from "@rollup/plugin-babel";
 import commonjs from "@rollup/plugin-commonjs";
 import resolve from "@rollup/plugin-node-resolve";
 import typescript from "@rollup/plugin-typescript";
-import peerDepsExternal from "rollup-plugin-peer-deps-external";
-import babel from "@rollup/plugin-babel";
+import path from "path";
+import { fileURLToPath } from "url";
 
 // Polyfill __dirname in ESM
 const __filename = fileURLToPath(import.meta.url);
@@ -50,6 +50,6 @@ export default {
     "motion",
     "@chakra-ui/system",
     "@chakra-ui/color-mode",
-    "@chakra-ui/react-use-safe-layout-effect"
-  ],  
+    "@chakra-ui/react-use-safe-layout-effect",
+  ],
 };

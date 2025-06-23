@@ -31,8 +31,6 @@
     "@babel/preset-env": "^7.27.2",
     "@babel/preset-react": "^7.27.1",
     "@babel/preset-typescript": "^7.27.1",
-    "@chakra-ui/react": "^3.21.0",
-    "@chakra-ui/system": "^2.6.2",
     "@eslint/js": "^9.29.0",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^28.0.5",
