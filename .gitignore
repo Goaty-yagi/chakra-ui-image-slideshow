@@ -5,3 +5,4 @@ env.local
 .vscode/
 .mypy_cache
 node_modules/
+.rollup.cache
