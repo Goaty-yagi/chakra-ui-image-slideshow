@@ -48,5 +48,8 @@ export default {
     "@emotion/react",
     "@emotion/styled",
     "motion",
-  ],
+    "@chakra-ui/system",
+    "@chakra-ui/color-mode",
+    "@chakra-ui/react-use-safe-layout-effect"
+  ],  
 };

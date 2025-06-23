@@ -1,4 +1,3 @@
-import React from "react";
 import { ImageItem } from "./types";
 interface SelectorProps {
     images: ImageItem[];
@@ -6,5 +5,5 @@ interface SelectorProps {
     paginate: (offset: number) => void;
     resetTimer: () => void;
 }
-export default function Selector({ images, imageIndex, paginate, resetTimer, }: SelectorProps): React.JSX.Element;
+export default function Selector({ images, imageIndex, paginate, resetTimer, }: SelectorProps): import("react/jsx-runtime").JSX.Element;
 export {};
