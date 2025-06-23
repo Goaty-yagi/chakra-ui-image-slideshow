@@ -1,9 +1,9 @@
 {
   "name": "chakra-ui-slideshow",
   "version": "1.0.0",
-  "description": "Template to create React packages with Chakra-UI",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
+  "description": "A customizable, lightweight React slideshow component built with Chakra UI and Motion for smooth animations and easy integration.",
+  "main": "dist/index.cjs.cjs",
+  "module": "dist/index.esm.mjs",
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
