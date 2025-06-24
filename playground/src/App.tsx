@@ -1,8 +1,8 @@
 import React from "react";
 
 import { Box } from "@chakra-ui/react";
-
-import Slideshow from "@/components/Slideshow";
+import { Slideshow } from "chakra-ui-slideshow";
+// import Slideshow from "@/components/Slideshow";
 
 const App = () => {
   const images = [

@@ -4,7 +4,7 @@ export interface ImageItem {
 }
 export interface SlideshowProps {
     images: ImageItem[];
-    slideDuration: number;
+    slideDuration?: number;
     arrowConfig?: ArrowConfig;
     selectorConfig?: SelectorConfig;
     textConfig?: TextConfig;
